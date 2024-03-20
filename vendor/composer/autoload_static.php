@@ -21,6 +21,7 @@ class ComposerStaticInit4b9062cfdd1c3cd88e638155ef7f8444
         ),
         'M' => 
         array (
+            'MyFruit\\' => 8,
             'Monolog\\' => 8,
         ),
         'G' => 
@@ -44,6 +45,10 @@ class ComposerStaticInit4b9062cfdd1c3cd88e638155ef7f8444
         'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
+        ),
+        'MyFruit\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Monolog\\' => 
         array (

@@ -1,6 +1,13 @@
 {
+    "name": "vendor/fruit",
     "require": {
         "guzzlehttp/guzzle": "^7.8",
         "monolog/monolog": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyFruit\\": "src/"
+        }
     }
+
 }

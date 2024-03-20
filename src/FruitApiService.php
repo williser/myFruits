@@ -33,7 +33,5 @@ class FruitApiService extends BaseApiService
         // 返回响应数据
         return $response;
     }
-	public function buyFruits(){
-		return 'google';
-	}
+	
 }
